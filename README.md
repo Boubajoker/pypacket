@@ -44,3 +44,4 @@ pip install py_packet
 - system : Minimal : Windows 7
 - py_launcher
 - pip
+- git
