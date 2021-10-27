@@ -1,10 +1,10 @@
 class json:
-    def create_packet_json(json_file_name):
+    def create_json_packet(json_file_name):
         file = open(json_file_name, "a+")
         file.write('{"test" : true}')
         file.close()
 class txt:
-    def creat_packet_txt(txt_file_name):
+    def creat_txt_packet(txt_file_name):
         file = open(txt_file_name, "a+")
         file.write('test : true')
         file.close()

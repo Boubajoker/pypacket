@@ -1,4 +1,4 @@
 from py_packet import *
 
-json.create_packet_json('test.json')
-txt.creat_packet_txt("test.txt")
+json.create_json_packet('test.json')
+txt.creat_txt_packet("test.txt")
