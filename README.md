@@ -45,3 +45,5 @@ pip install py_packet
 - py_launcher
 - pip
 - git
+
+for more info visit <a href="https://boubajoker.github.io/pypacket/">pypacket documentation</a>
