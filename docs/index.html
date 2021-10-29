@@ -9,23 +9,25 @@
 </head>
 <body>
     <h1 class="welcome-title">Welcome To pypacket Documentation !</h1>
-    <div class="app-container">
-        <h2 class="main-question">What is pypacket ?</h2>
-        <p class="awnser-main-question">A python module that can make files packet for send a request file to a server or create a log.</p>
+    <div class="app-container" id="app_container">
+        <h2 class="main-question">{{ q1 }}</h2>
+        <p class="awnser-main-question">{{ p1 }}</p>
         <h3 class="first-question">create a json packet</h3>
-        <p>to create a json packet we are using the class json. and the function 'create_json_packet()' then the code look's like this : </p>
+        <p>{{ p2 }}</p>
         <pre>
         import py_packet
 
         json.create_json_packet("you're file name.json")
         </pre>
         <h2 class="second-question">How to install it ?</h2>
-        <p>To install pypacket module please follow the following steps :</p>
-        <li>open your terminal,</li>
-        <li>type the following command:</li>
-        <pre>
-        pip install pypacket
+        <p>{{ p3 }}</p>
+        <li>{{ li1 }}</li>
+        <li>{{ li2 }}</li>
+        <pre id="install_command">
+        {{ command }}
         </pre>
+        <script src="https://unpkg.com/vue"></script>
+        <script src="JS/app.js"></script>
     </div>
 </body>
 </html>
