@@ -26,14 +26,16 @@ SOFTWARE.
 import typing
 
 class json:
-    def create_json_packet(json_file_name) -> None:
+    def create_json_packet(json_file_name, json_content) -> None:
         file = open(json_file_name, "a+")
-        file.write('{"tests" : true}')
+        file.write("{")
+        file.write(json_content)
+        file.write("}")
         file.close()
 class txt:
-    def creat_txt_packet(txt_file_name) -> None:
+    def creat_txt_packet(txt_file_name, txt_content) -> None:
         file = open(txt_file_name, "a+")
-        file.write('test : true')
+        file.write(txt_content)
         file.close()
 
 print("Hello from the pypacket community !! get started at https://boubajoker.github.io/pypacket/. Happy coding :)!")
