@@ -13,7 +13,7 @@ then the code look's like this :
 ```python
 import py_packet
 
-json.create_json_packet("you're file name.json")
+json.create_json_packet("Hello.json", json_content='"msg" : "Hello World !"')
 ```
 
 ### create a txt packet
@@ -25,7 +25,7 @@ then the code look's like this :
 ```python
 import py_packet
 
-txt.create_txt_packet("you're file name.txt")
+txt.create_txt_packet("Hello.txt", txt_content='Hello World !')
 ```
 ## How to install it ?
 
@@ -35,15 +35,16 @@ To install pypacket module please follow the following steps :
 ```
 pip install py_packet
 ```
+WARNING! : py_packet is not aividable for the moment in pip platform !
 
 ## Launch the project
 
 ### Requires :
 
-- Intrpreter : python 38
-- system : Minimal : Windows 7
+- Intrpreter : python 3.8
+- system : Minimal : Windows 7 64bits
 - py_launcher
-- pip
+- pip 21.2.1
 - git
 
 for more info visit <a href="https://boubajoker.github.io/pypacket/">pypacket documentation</a>
