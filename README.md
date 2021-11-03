@@ -37,7 +37,7 @@ pip install py_packet
 ```
 WARNING! : py_packet is not aividable for the moment in pip platform !
 
-For the moment you can copy and past "pypacket" directory to you're local project.
+For the moment you can copy and past "pypacket" directory to you're local project. But don't worry, project in pypi will become soon !
 
 ## Launch the project
 
