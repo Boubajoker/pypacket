@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.vscode/
+.gitignore
+Hello.json
+Hello.txt
 
 # C extensions
 *.so
