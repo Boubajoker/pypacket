@@ -1,4 +1,10 @@
 body {
     font-family: Arial;
-    background: white;
+    background: linear-gradient(blue, red);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vh;
+}
+h2 {
+    text-align: center;
 }
