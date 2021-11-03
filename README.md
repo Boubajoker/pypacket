@@ -46,7 +46,7 @@ For the moment you can copy and past "pypacket" directory to you're local projec
 - Intrpreter : python 3.8
 - system : Minimal : Windows 7 64bits
 - py_launcher
-- pip 21.2.1
+- pip 21.3.1
 - git
 
 for more info visit <a href="https://bit.ly/3CGB08g">pypacket documentation</a>
