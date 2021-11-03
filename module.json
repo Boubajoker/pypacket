@@ -10,6 +10,7 @@
             "Github_components.Security_path" : "SECUTITY.md",
             "Github_components.gitignore_path" : ".gitignore",
             "Github_components.gitattributes_path" : ".gitatttibutes",
+            "Github_components.CODE_OF_CONDUCT_path" : "CODE_OF_CONDUCT.md",
             "Github_components.github_folder_path" : ".\\.github\\",
             "Github_components.codeQL_path" : ".\\.github\\workflows\\codeql-analysis.yml",
             "Github_components.ISSUE_TEMPLATE_path" : ".\\.github\\ISSUE_TEMPLATE\\",
