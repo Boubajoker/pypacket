@@ -24,16 +24,20 @@ SOFTWARE.
 """
 
 class json:
+# this command is for create a .json packet, For more info check docs.
     def create_json_packet(json_file_name, json_content) -> None:
         with open(json_file_name, "a+") as f:
+            f.write("// generated from pypacket")
             f.write("{")
             f.write(json_content)
             f.write("}")
             f.close()
+# this command is for create a .txt packet, For more info check docs.
 class txt:
     def creat_txt_packet(txt_file_name, txt_content) -> None:
         with open(txt_file_name, "a+") as f:
+            f.write("INFO: Generated from pypacket")
             f.write(txt_content)
             f.close()
 
-print("Hello from the pypacket community !! get started at https://boubajoker.github.io/pypacket/. Happy coding :)!")
+print("Hello from the pypacket community !! get started at https://bit.ly/3CGB08g. Happy coding :)!")

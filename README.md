@@ -47,4 +47,4 @@ WARNING! : py_packet is not aividable for the moment in pip platform !
 - pip 21.2.1
 - git
 
-for more info visit <a href="https://boubajoker.github.io/pypacket/">pypacket documentation</a>
+for more info visit <a href="https://bit.ly/3CGB08g">pypacket documentation</a>

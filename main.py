@@ -29,5 +29,7 @@ security.check.paths()
 
 # {} symbols automaticly added.
 
+# To create .json packet file.
 json.create_json_packet("Hello.json", json_content='"msg" : "Hello World !"')
+#To create .txt packet file
 txt.creat_txt_packet("Hello.txt", txt_content="Hello World !")
