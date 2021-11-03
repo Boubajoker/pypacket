@@ -23,19 +23,17 @@ SOFTWARE.
 
 """
 
-import typing
-
 class json:
     def create_json_packet(json_file_name, json_content) -> None:
-        file = open(json_file_name, "a+")
-        file.write("{")
-        file.write(json_content)
-        file.write("}")
-        file.close()
+        with open(json_file_name, "a+") as f:
+            f.write("{")
+            f.write(json_content)
+            f.write("}")
+            f.close()
 class txt:
     def creat_txt_packet(txt_file_name, txt_content) -> None:
-        file = open(txt_file_name, "a+")
-        file.write(txt_content)
-        file.close()
+        with open(txt_file_name, "a+") as f:
+            f.write(txt_content)
+            f.close()
 
 print("Hello from the pypacket community !! get started at https://boubajoker.github.io/pypacket/. Happy coding :)!")
