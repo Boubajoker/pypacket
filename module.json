@@ -1,0 +1,49 @@
+{
+    "name" : "py_packet",
+    "version" : "0.0.1 Alpha B-2",
+    "description" : "A python module that can create python file !!",
+    "Github_components" : [
+        {
+            "Github_components.Readme_path" : "README.md",
+            "Github_components.Changelog_path" : "CHANGELOG.md",
+            "Github_components.License_path" : "LICENSE",
+            "Github_components.Security_path" : "SECUTITY.md",
+            "Github_components.gitignore_path" : ".gitignore",
+            "Github_components.gitattributes_path" : ".gitatttibutes",
+            "Github_components.github_folder_path" : ".\\.github\\",
+            "Github_components.codeQL_path" : ".\\.github\\workflows\\codeql-analysis.yml",
+            "Github_components.ISSUE_TEMPLATE_path" : ".\\.github\\ISSUE_TEMPLATE\\",
+            "Github_components.bug_report_path" : ".\\.github\\ISSUE_TEMPLATE\\bug_report.md",
+            "Github_components.feature_request_path" : ".\\.github\\ISSUE_TEMPLATE\\feature_request.md"
+        }
+    ],
+    "docs" : [
+        {
+            "docs.index" : ".\\docs\\index.html"
+        },
+        {
+            "docs.script_1" : ".\\docs\\JS\\app.js"
+        },
+        {
+            "docs.style_1" : ".\\docs\\CSS\\style.css"
+        }
+    ],
+    "Interpreter" : [
+        {
+            "Interpreter.name" : "Python",
+            "Interpreter.version" : "3.8.10",
+            "Compiled" : true,
+            "Interpreted" : true
+
+        }
+    ],
+    "Scripts" : [
+        {
+            "Scripts.script_1" : "main.py",
+            "Scripts.script_2" : ".\\py_packet\\__init__.py",
+            "Scripts.script_3" : ".\\security\\__init_.py",
+            "Scripts.script_4" : "pypacket.sh",
+            "Scripts.script_5" : "compiled.pypacket.sh"
+        }
+    ]
+}
