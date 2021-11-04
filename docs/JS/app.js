@@ -1,4 +1,10 @@
-const txtAnim = document.querySelector("h1")
+const txtAnim = document.querySelector("h1");
+const btnCopy = document.querySelector(".btn-copy");
+const txtCopy = document.querySelector("#install_command");
+
+btnCopy.addEventListener('click', () => {
+    navigator.clipboard.writeText(txtCopy.innerText);
+})
 
 new Typewriter(txtAnim, {
     deleteSpeed: 50,
