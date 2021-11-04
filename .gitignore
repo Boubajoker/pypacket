@@ -7,6 +7,7 @@ __pycache__/
 Hello.jsonc
 Hello.json
 Hello.txt
+test.py
 
 # C extensions
 *.so
