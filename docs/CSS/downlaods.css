@@ -1,0 +1,11 @@
+body {
+    font-family: Arial;
+}
+.downlaod-btn {
+    border-radius: 25px;
+    border-width: 0px;
+    background: rgba(4, 126, 226, 0.781);
+    font-size: 20px;
+    width: 500px;
+    height: 100px;
+}

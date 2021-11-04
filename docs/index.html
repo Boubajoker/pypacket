@@ -11,21 +11,30 @@
     <h1 class="welcome-title"></h1>
     <div class="app-container" id="app_container">
         <h2 class="main-question">What is pypacket ?</h2>
-        <p class="awnser-main-question">A python module that can make files packet for send a request file to a server or create a log.</p>
-        <h3 class="first-question">create a json packet</h3>
-        <p>to create a json packet we are using the class json. and the function 'create_json_packet()' then the code look's like this :</p>
-        <pre>
-        import py_packet
-
-        json.create_json_packet("you're file name.json")
+        <p class="pypacket-desc">A python module that can make files packet for send a request file to a server or create a log.</p>
+        <h3 class="json-packet">Create a .json packet</h3>
+        <p>To create a .json packet we are using the class json and the function 'create_json_packet()' then the code look's like this :</p>
+        <pre id="code-1">
+        1 from pypacket import *
+        2    
+        3 json.create_json_packet("Hello.json", json_content='"msg" : "Hello World !"')
         </pre>
-        <h2 class="second-question">How to install it ?</h2>
-        <p>"To install pypacket module please follow the following steps :"</p>
-        <li>"open your terminal,"</li>
-        <li>"type the following command:"</li>
-        <pre id="install_command">
-            pip install pypacket
+        <h3 class="txt-packet">Create a .txt packet</h3>
+        <p>To create a .txt packet we are using the class txt and the function 'create_txt_packet()' then the code look's like this :</p>
+        <pre id="code-2">
+        1 from pypacket import *
+        2     
+        3 txt.create_txt_packet("Hello.txt", txt_content='Hello World !')
         </pre>
+        <h2 class="install">How to install it ?</h2>
+        <p>To install pypacket module please follow the following steps :</p>
+        <li>open your terminal,</li>
+        <li>type the following command:</li>
+        <pre id="install_command" class="install-command">
+        > pip install pypacket
+        </pre>
+        <p>Or go to <a href="downlaods.html">downlaods</a>.</p>
+        <h2 class="special-msg">Happy coding !</h2>
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="JS/app.js"></script>
     </div>

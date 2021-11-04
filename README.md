@@ -11,7 +11,7 @@ and the function 'create_json_packet()'
 then the code look's like this : 
 
 ```python
-import py_packet
+from pypacket import *
 
 json.create_json_packet("Hello.json", json_content='"msg" : "Hello World !"')
 ```
@@ -23,7 +23,7 @@ and the function 'create_txt_packet()'
 then the code look's like this : 
 
 ```python
-import py_packet
+from pypacket import *
 
 txt.create_txt_packet("Hello.txt", txt_content='Hello World !')
 ```
