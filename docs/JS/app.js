@@ -2,8 +2,6 @@ const txtAnim = document.querySelector("h1");
 const btnCopy = document.querySelector(".btn-copy");
 const txtCopy = document.querySelector("#install_command");
 
-console.time('Start Time')
-
 btnCopy.addEventListener('click', () => {
     navigator.clipboard.writeText(txtCopy.innerText);
 })
