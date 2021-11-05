@@ -7,14 +7,17 @@ btnCopy.addEventListener('click', () => {
 })
 
 new Typewriter(txtAnim, {
-    deleteSpeed: 50,
+    Speed: 20,
+    deleteSpeed: 30,
     loop: true,
 })
 .typeString("Welcome To pypacket Documentation !")
 .pauseFor(3000)
-.typeString('Code <strong style="color: aliceblue;">packet, it will apears !</strong>')
-.pauseFor(300)
-.deleteChars(32)
+.typeString('<strong style="color: aliceblue;">Code packets, it will apears !</strong>')
+.pauseFor(3000)
+.deleteChars(31)
+.typeString('<strong style="color: aliceblue;">With only a Python script !</strong>')
+.deleteChars(31)
 .start()
 console.warn("%c!!STOP!! This is a tool only for devellopers GET OUT of here! Or see GitHub Repo https://github.com/Boubajoker/pypacket/", "color: red; font-size:30px");
 console.log("     _              ");
