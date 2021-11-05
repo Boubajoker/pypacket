@@ -32,6 +32,13 @@ class json:
             f.write(json_content + "\n")
             f.write("}")
             f.close()
+
+    def get_json_content(json_file_name_read) -> str:
+        with open(json_file_name_read, "r+") as f:
+            json_content = f.readlines()
+            f.close()
+            print(json_content)
+
 # this command is for create a .txt packet, For more info check docs.
 class txt:
     def creat_txt_packet(txt_file_name, txt_content) -> None:
@@ -39,5 +46,11 @@ class txt:
             f.write("INFO: Generated from pypacket\n")
             f.write(txt_content + "\n")
             f.close()
+
+    def get_txt_content(txt_file_name_read) -> str:
+        with open(txt_file_name_read, "r+") as f:
+            txt_content = f.readlines()
+            f.close()
+            print(txt_content)
 
 print("Hello from the pypacket community !! get started at https://bit.ly/3CGB08g. Happy coding :)!")

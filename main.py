@@ -33,3 +33,7 @@ security.check.paths()
 json.create_json_packet("Hello.jsonc", json_content='"msg" : "Hello World !"')
 #To create .txt packet file
 txt.creat_txt_packet("Hello.txt", txt_content="Hello World !")
+#to read content of .txt packet file
+txt.get_txt_content("Hello.txt")
+#to read content of .json packet file
+json.get_json_content("Hello.jsonc")
