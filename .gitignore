@@ -8,6 +8,7 @@ Hello.jsonc
 Hello.json
 Hello.txt
 test.py
+.cache
 
 # C extensions
 *.so
