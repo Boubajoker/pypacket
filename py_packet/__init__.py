@@ -36,7 +36,7 @@ class json:
 class txt:
     def creat_txt_packet(txt_file_name, txt_content) -> None:
         with open(txt_file_name, "a+") as f:
-            f.write("INFO: Generated from pypacket")
+            f.write("INFO: Generated from pypacket\n")
             f.write(txt_content + "\n")
             f.close()
 
