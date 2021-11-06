@@ -20,13 +20,19 @@
     ],
     "docs" : [
         {
-            "docs.index" : ".\\docs\\index.html"
+            "docs.index" : ".\\docs\\index.html",
+            "docs.page_1" : ".\\docs\\downlaods.html"
         },
         {
             "docs.script_1" : ".\\docs\\JS\\app.js"
         },
         {
-            "docs.style_1" : ".\\docs\\CSS\\style.css"
+            "docs.style_1" : ".\\docs\\CSS\\style.css",
+            "docs.style_2" : ".\\docs\\CSS\\downlaods.css"
+        },
+        {
+            "docs.favicon" : ".\\docs\\assets\\favicon.svg",
+            "docs.assets_1" : ".\\docs\\assets\\others\\py_packet.zip"
         }
     ],
     "Interpreter" : [
