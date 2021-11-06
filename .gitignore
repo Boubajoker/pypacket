@@ -9,7 +9,7 @@ Hello.json
 Hello.txt
 test.py
 .cache
-server.py
+test.*
 
 # C extensions
 *.so
