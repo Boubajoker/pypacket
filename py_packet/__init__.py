@@ -34,8 +34,8 @@ class json:
             f.close()
 
     def get_json_content(json_file_name_read) -> str:
-        with open(json_file_name_read, "r+") as f:
-            json_content = f.readlines()
+        with open(json_file_name_read, "r") as f:
+            json_content = f.read()
             f.close()
             print(json_content)
 
@@ -48,8 +48,8 @@ class txt:
             f.close()
 
     def get_txt_content(txt_file_name_read) -> str:
-        with open(txt_file_name_read, "r+") as f:
-            txt_content = f.readlines()
+        with open(txt_file_name_read, "r") as f:
+            txt_content = f.read()
             f.close()
             print(txt_content)
 
