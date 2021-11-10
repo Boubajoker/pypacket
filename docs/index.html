@@ -18,14 +18,28 @@
         <pre id="code-1">
         1 from pypacket import *
         2    
-        3 json.create_json_packet("Hello.json", json_content='"msg" : "Hello World !"')
+        3 Json.create_json_packet("Hello.json", json_content='"msg" : "Hello World !"')
         </pre>
         <h3 class="txt-packet">Create a .txt packet</h3>
         <p>To create a .txt packet we are using the class txt and the function 'create_txt_packet()' then the code look's like this :</p>
         <pre id="code-2">
         1 from pypacket import *
         2     
-        3 txt.create_txt_packet("Hello.txt", txt_content='Hello World !')
+        3 Txt.create_txt_packet("Hello.txt", txt_content='Hello World !')
+        </pre>
+        <h3 class="xml-packet">Create a .xml packet</h3>
+        <p>To create a .xml packet we are using the class xml and the function 'create_xml_packet()' then the code look's like this :</p>
+        <pre id="code-3">
+        1 from pypacket import *
+        2     
+        3 Xml.create_txt_packet("Hello.xml", xml_content='< template >Hello World !< / template >')
+        </pre>
+        <h3 class="js-packet">Create a .js packet</h3>
+        <p>To create a .js packet we are using the class JavaScript and the function 'create_js_packet()' then the code look's like this :</p>
+        <pre id="code-3">
+        1 from pypacket import *
+        2     
+        3 JavaScript.create_txt_packet("Hello.js", js_content='Hello World !')
         </pre>
         <h2 class="install">How to install it ?</h2>
         <p>To install pypacket module please follow the following steps :</p>
