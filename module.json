@@ -38,9 +38,9 @@
     "Interpreter" : [
         {
             "Interpreter.name" : "Python",
-            "Interpreter.version" : "3.8.10",
-            "Compiled" : true,
-            "Interpreted" : true
+            "Interpreter.version" : 3.8,
+            "Interpreter.Compiled" : true,
+            "Interpreter.Interpreted" : true
 
         }
     ],
