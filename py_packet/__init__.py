@@ -22,10 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 """
+import webbrowser
+import os
 
-class json:
+class Json:
 # this command is for create a .json packet, For more info check docs.
-    def create_json_packet(json_file_name, json_content) -> None:
+    def create_json_packet(json_file_name, json_content) -> str:
         with open(json_file_name, "a+") as f:
             f.write("// generated from pypacket\n")
             f.write("{\n")
@@ -33,24 +35,54 @@ class json:
             f.write("}")
             f.close()
 
-    def get_json_content(json_file_name_read) -> str:
-        with open(json_file_name_read, "r") as f:
-            json_content = f.read()
-            f.close()
-            print(json_content)
-
 # this command is for create a .txt packet, For more info check docs.
-class txt:
-    def creat_txt_packet(txt_file_name, txt_content) -> None:
+class Txt:
+    def create_txt_packet(txt_file_name, txt_content) -> str:
         with open(txt_file_name, "a+") as f:
             f.write("INFO: Generated from pypacket\n")
             f.write(txt_content + "\n")
             f.close()
 
-    def get_txt_content(txt_file_name_read) -> str:
-        with open(txt_file_name_read, "r") as f:
-            txt_content = f.read()
+class Html:
+    def create_html_packet(html_file_name, html_content) -> str:
+        with open(html_file_name, "a+") as f:
+            f.write("<!DOCTYPE html>\n")
+            f.write("<html>\n")
+            f.write(html_content + "\n")
+            f.write("</html>")
             f.close()
-            print(txt_content)
 
-print("Hello from the pypacket community !! get started at https://bit.ly/3CGB08g. Happy coding :)!")
+class Xml:
+    def create_xml_packet(xml_file_name, xml_content) -> str:
+        with open(xml_file_name, "a+") as f:
+            f.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
+            f.write(xml_content + "\n")
+            f.close()
+
+class JavaScript:
+    def create_js_packet(js_file_name, js_content) -> str:
+        with open(js_file_name, "a+") as f:
+            f.write("// generated from pypacket\n")
+            f.write(js_content + "\n")
+            f.close()
+
+class Read:
+    def file_content(file_name_read) -> str:
+        with open(file_name_read, "r") as f:
+            content = f.read()
+            f.close()
+            print(content)
+
+class pypacket:
+    def Zen() -> str:
+        """
+        This text is the description of the module.
+        """
+        print("""
+        pypacket is a simple python module that can create packets files
+        """)
+    def get_started() -> str:
+        print("Get started at https://bit.ly/3CGB08g")
+        webbrowser.open("https://bit.ly/3CGB08g")
+
+print("Hello from the pypacket community !! Get started at https://bit.ly/3CGB08g. Happy coding :)!")

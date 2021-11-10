@@ -26,14 +26,22 @@ from py_packet import *
 import security
 
 security.check.paths()
-
 # {} symbols automaticly added.
 
 # To create .json packet file.
-json.create_json_packet("Hello.jsonc", json_content='"msg" : "Hello World !"')
-#To create .txt packet file
-txt.creat_txt_packet("Hello.txt", txt_content="Hello World !")
-#to read content of .txt packet file
-txt.get_txt_content("Hello.txt")
-#to read content of .json packet file
-json.get_json_content("Hello.jsonc")
+Json.create_json_packet("Hello.jsonc", json_content='"msg" : "Hello World !"')
+
+#To create .txt packet file.
+Txt.create_txt_packet("Hello.txt", txt_content="Hello World !")
+
+#to create a .html packet file.
+Html.create_html_packet("Hello.html", html_content="<h1>Hello World !</h1>")
+
+#to create a .xml packet file.
+Xml.create_xml_packet("Hello.xml", xml_content="<template>Hello World !</template>")
+
+#to create a .js packet file.
+JavaScript.create_js_packet("Hello.js", js_content="console.log('Hello World !')")
+
+#to read a packet file.
+Read.file_content("Hello.jsonc")

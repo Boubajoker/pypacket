@@ -4,9 +4,7 @@ __pycache__/
 *$py.class
 .vscode/
 .gitignore
-Hello.jsonc
-Hello.json
-Hello.txt
+Hello.*
 test.py
 .cache
 test.*
