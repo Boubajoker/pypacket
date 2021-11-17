@@ -41,6 +41,8 @@ For the moment you can copy and past "pypacket" directory to you're local projec
 
 ## Launch the project
 
+execute <a href="pypacket.sh">pypacket.sh</a>.
+
 ### Requires :
 
 - Intrpreter : python 3.8
