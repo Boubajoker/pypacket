@@ -66,6 +66,16 @@ class JavaScript:
             f.write(js_content + "\n")
             f.close()
 
+class TypeScript:
+    def create_ts_packet(ts_file_name, ts_content) -> str:
+        with open(ts_file_name, "a+") as f:
+            f.write("// generated from pypacket\n")
+            f.write(ts_content + "\n")
+            f.close()
+        with open("tsconfig.json", "w+") as f:
+            f.write("//tsconfig file generated from pypacket.\n")
+            f.close()
+
 class Read:
     def file_content(file_name_read) -> str:
         with open(file_name_read, "r") as f:

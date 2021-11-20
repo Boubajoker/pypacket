@@ -43,5 +43,8 @@ Xml.create_xml_packet("Hello.xml", xml_content="<template>Hello World !</templat
 #to create a .js packet file.
 JavaScript.create_js_packet("Hello.js", js_content="console.log('Hello World !')")
 
+#to create a .ts packet file.
+TypeScript.create_ts_packet("Hello.ts", ts_content="console.log('Hello World !')")
+
 #to read a packet file.
 Read.file_content("Hello.jsonc")
