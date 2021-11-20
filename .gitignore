@@ -8,6 +8,7 @@ Hello.*
 test.py
 .cache
 test.*
+tsconfig.json
 
 # C extensions
 *.so
