@@ -73,7 +73,9 @@ class TypeScript:
             f.write(ts_content + "\n")
             f.close()
         with open("tsconfig.json", "w+") as f:
+            f.write("{\n")
             f.write("//tsconfig file generated from pypacket.\n")
+            f.write("}")
             f.close()
 
 class Read:

@@ -29,22 +29,22 @@ security.check.paths()
 # {} symbols automaticly added.
 
 # To create .json packet file.
-Json.create_json_packet("Hello.jsonc", json_content='"msg" : "Hello World !"')
+Json.create_json_packet("build/Hello.jsonc", json_content='"msg" : "Hello World !"')
 
 #To create .txt packet file.
-Txt.create_txt_packet("Hello.txt", txt_content="Hello World !")
+Txt.create_txt_packet("build/Hello.txt", txt_content="Hello World !")
 
 #to create a .html packet file.
-Html.create_html_packet("Hello.html", html_content="<h1>Hello World !</h1>")
+Html.create_html_packet("build/Hello.html", html_content="<h1>Hello World !</h1>")
 
 #to create a .xml packet file.
-Xml.create_xml_packet("Hello.xml", xml_content="<template>Hello World !</template>")
+Xml.create_xml_packet("build/Hello.xml", xml_content="<template>Hello World !</template>")
 
 #to create a .js packet file.
-JavaScript.create_js_packet("Hello.js", js_content="console.log('Hello World !')")
+JavaScript.create_js_packet("build/Hello.js", js_content="console.log('Hello World !')")
 
 #to create a .ts packet file.
-TypeScript.create_ts_packet("Hello.ts", ts_content="console.log('Hello World !')")
+TypeScript.create_ts_packet("build/Hello.ts", ts_content="console.log('Hello World !')")
 
 #to read a packet file.
-Read.file_content("Hello.jsonc")
+Read.file_content("build/Hello.jsonc")
