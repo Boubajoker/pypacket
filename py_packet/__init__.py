@@ -46,6 +46,7 @@ class Txt:
 class Html:
     def create_html_packet(html_file_name, html_content) -> str:
         with open(html_file_name, "a+") as f:
+            f.write("<!--generated from pypacket-->\n")
             f.write("<!DOCTYPE html>\n")
             f.write("<html>\n")
             f.write(html_content + "\n")
@@ -55,6 +56,7 @@ class Html:
 class Xml:
     def create_xml_packet(xml_file_name, xml_content) -> str:
         with open(xml_file_name, "a+") as f:
+            f.write("<!--generated from pypacket-->\n")
             f.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
             f.write(xml_content + "\n")
             f.close()
