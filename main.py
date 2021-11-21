@@ -52,6 +52,7 @@ TypeScript.create_ts_packet("build/Hello.ts", ts_content="console.log('Hello Wor
 Read.file_content("build/Hello.jsonc")
 
 #download a release module.
+os.system("pip install requests")
 
 downloadUrl = 'https://boubajoker.github.io/pypacket/assets/others/py_packet.zip'
 
