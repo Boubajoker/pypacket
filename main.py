@@ -23,7 +23,9 @@ SOFTWARE.
 
 """
 from py_packet import *
+import requests
 import security
+import os
 
 security.check.paths()
 # {} symbols automaticly added.
@@ -48,3 +50,32 @@ TypeScript.create_ts_packet("build/Hello.ts", ts_content="console.log('Hello Wor
 
 #to read a packet file.
 Read.file_content("build/Hello.jsonc")
+
+#download a release module.
+
+downloadUrl = 'https://boubajoker.github.io/pypacket/assets/others/py_packet.zip'
+
+req = requests.get(downloadUrl)
+filename = req.url[downloadUrl.rfind('/')+1:]
+
+with open(filename, 'wb') as f:
+    for chunk in req.iter_content(chunk_size=8192):
+        if chunk:
+            f.write(chunk)
+
+def download_file(url, filename=''):
+    try:
+        if filename:
+            pass            
+        else:
+            filename = req.url[downloadUrl.rfind('/')+1:]
+
+        with requests.get(url) as req:
+            with open(filename, 'wb') as f:
+                for chunk in req.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+            return filename
+    except Exception as e:
+        print(e)
+        return None
