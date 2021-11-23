@@ -15,7 +15,11 @@
             "Github_components.codeQL_path" : ".\\.github\\workflows\\codeql-analysis.yml",
             "Github_components.ISSUE_TEMPLATE_path" : ".\\.github\\ISSUE_TEMPLATE\\",
             "Github_components.bug_report_path" : ".\\.github\\ISSUE_TEMPLATE\\bug_report.md",
-            "Github_components.feature_request_path" : ".\\.github\\ISSUE_TEMPLATE\\feature_request.md"
+            "Github_components.feature_request_path" : ".\\.github\\ISSUE_TEMPLATE\\feature_request.md",
+            "Github_components.authors_path" : "AUTHORS.md",
+            "Github_components.ThirdPartyNotice_path" : "ThirdPartyNotice.txt",
+            "Github_components.Contributing_path" : "CONTRIBUTING.md",
+            "Github_components.Credits_path" : "CREDITS.md"
         }
     ],
     "docs" : [
