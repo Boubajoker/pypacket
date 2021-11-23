@@ -52,3 +52,12 @@ execute <a href="pypacket.sh">pypacket.sh</a>.
 - git
 
 for more info visit <a href="https://bit.ly/3CGB08g">pypacket documentation</a>
+
+### Requied to send this project
+
+The files you need for publish this project is:
+- <a href="AUTHORS.md">AUTHORS.md</a>
+- <a href="CopyRight.txt">CopyRight.txt</a>
+- <a href="LICENSE">LICENSE</a>
+- <a href="ThirdPartyNotice.txt">ThirdPartyNotice.txt</a>
+AND DO NOT EDIT THOSE FILES !!
