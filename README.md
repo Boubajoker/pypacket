@@ -4,29 +4,8 @@ A python module that can make files packet for send a request file to a server o
 
 ## How to create a packet ?
 
-### create a json packet
+To know how to create packets files visit the pypacket Wiki or the pypacket docs.
 
-to create a json packet we are using the class json.
-and the function 'create_json_packet()'
-then the code look's like this : 
-
-```python
-from pypacket import *
-
-json.create_json_packet("Hello.json", json_content='"msg" : "Hello World !"')
-```
-
-### create a txt packet
-
-to create a txt packet we are using the class txt.
-and the function 'create_txt_packet()'
-then the code look's like this : 
-
-```python
-from pypacket import *
-
-txt.create_txt_packet("Hello.txt", txt_content='Hello World !')
-```
 ## How to install it ?
 
 To install pypacket module please follow the following steps :
@@ -51,13 +30,14 @@ execute <a href="pypacket.sh">pypacket.sh</a>.
 - pip 21.3.1
 - git
 
-for more info visit <a href="https://bit.ly/3CGB08g">pypacket documentation</a>
+for more info visit <a href="https://bit.ly/3CGB08g">pypacket documentation</a> or pypacket wiki's.
 
-### Requied to send this project
+### Requied to share this project
 
 The files you need for publish this project is:
 - <a href="AUTHORS.md">AUTHORS.md</a>
 - <a href="CopyRight.txt">CopyRight.txt</a>
 - <a href="LICENSE">LICENSE</a>
 - <a href="ThirdPartyNotice.txt">ThirdPartyNotice.txt</a>
+
 AND DO NOT EDIT THOSE FILES !!
