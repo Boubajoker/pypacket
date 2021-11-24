@@ -23,7 +23,6 @@ SOFTWARE.
 
 """
 from py_packet import *
-import requests
 import security
 import os
 
@@ -53,6 +52,8 @@ Read.file_content("build/Hello.jsonc")
 
 #download a release module.
 os.system("pip install requests")
+
+import requests
 
 downloadUrl = 'https://boubajoker.github.io/pypacket/assets/others/py_packet.zip'
 
